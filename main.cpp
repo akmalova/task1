@@ -1,4 +1,4 @@
-#include <QCoreApplication>
+﻿#include <QCoreApplication>
 #include <iostream>
 #include <fstream>
 
@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
         fout.close();
     }
     else
-        cout << "Error" << endl;
+        cout << "Error: file not opened" << endl;
 
     return a.exec();
 }
